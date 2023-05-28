@@ -1,5 +1,6 @@
 ##################### 1 #########################
 class Solution:
+    #O(n^2)
     def twoSum(self, nums, target):
         length = len(nums)
         for i in range(length - 1):
@@ -15,6 +16,7 @@ print(deneme.twoSum(nums, target))
 ##################### 2 #########################
 
 class Solution:
+    #O(1)
     def twoSum(self, nums, target):
         d = {}
         for index, val in enumerate(nums):
