@@ -42,7 +42,9 @@ class Solution:
             diff = target - num
             if diff in my_hash:
                 return [my_hash[diff],i]
-            my_hash[num] = i    
+
+            my_hash[num] = i 
+            #this is the best way to add key,values because at first hand we don't need to check anythinh at first
 
 
 nums = [2,7,11,15]
