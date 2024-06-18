@@ -45,7 +45,6 @@ class Solution:
         return min_value
 
 
-
 # And this is others solution
 
 # class Solution:
