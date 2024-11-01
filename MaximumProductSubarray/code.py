@@ -47,17 +47,11 @@ class Solution:
             if n == 0:
                 curMin,curMax = 1,1
                 continue
-
-            print(n)    
+            
             temp = curMax * n
-            print(temp)
             curMax = max(n*curMax,n*curMin,n)
-            print(curMax)
             curMin = min(temp,n*curMin,n)
-            print(curMin)
             res = max(res,curMax)
-            print(res)
-
         return res
 
 
