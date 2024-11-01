@@ -1,3 +1,5 @@
+# 0ms runtime
+
 from typing import List
 from collections import Counter
 
